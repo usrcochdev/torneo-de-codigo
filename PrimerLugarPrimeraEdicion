@@ -1,0 +1,71 @@
+package main;
+
+import static java.time.temporal.ChronoUnit.DAYS;
+
+import java.time.LocalDateTime;
+import java.time.LocalTime;
+import java.util.Objects;
+
+public class Hotel {
+
+  public static void main(String[] args) {
+
+    System.out.println(result(false,
+        LocalDateTime.of(2022, 2, 11, 6, 40, 45),
+        LocalDateTime.of(2022, 2, 12, 6, 40, 45), 12.5));
+  }
+
+  public static String result(boolean isLuigui,
+      LocalDateTime checkIn, LocalDateTime checkout, Double amount) {
+
+    validations(checkIn, checkout, amount);
+
+    var validationBetweenOne = LocalDateTime.of(checkIn.toLocalDate(), LocalTime.of(8, 30));
+    var validationBetweenTwo = LocalDateTime.of(checkIn.toLocalDate(), LocalTime.of(13, 0));
+    var validationOne = LocalDateTime.of(checkout.toLocalDate(), LocalTime.of(8, 30));
+    var validationTwo = LocalDateTime.of(checkout.toLocalDate(), LocalTime.of(13, 0));
+
+    long daysBetween = DAYS.between(checkIn, checkout) - 1L;
+
+    final var checkinDay = validationCheckIn(checkIn, validationBetweenOne, validationBetweenTwo);
+    final var checkoutDay = validationCheckOut(checkout, validationOne, validationTwo);
+
+    final var totalDay = daysBetween + checkinDay + checkoutDay;
+
+
+
+    return "Luigui: "+isLuigui+" total: " +totalDay* amount;
+  }
+
+
+
+  private static double validationCheckIn(LocalDateTime checkIn, LocalDateTime validationBetweenOne, LocalDateTime validationBetweenTwo) {
+    if (checkIn.isBefore(validationBetweenOne)) {
+      return 1;
+    }
+    if (!checkIn.isBefore(validationBetweenOne) && !checkIn.isAfter(validationBetweenTwo)) {
+      return 0.72;
+    }
+
+    return 0.55;
+  }
+
+  private static double validationCheckOut(LocalDateTime checkOut, LocalDateTime validationBetweenOne, LocalDateTime validationBetweenTwo) {
+    if (checkOut.isBefore(validationBetweenOne)) {
+      return 0;
+    }
+    if (!checkOut.isBefore(validationBetweenOne) && !checkOut.isAfter(validationBetweenTwo)) {
+      return 0.52;
+    }
+
+    return 0.71;
+  }
+
+
+  private static void validations(LocalDateTime checkIn, LocalDateTime checkout, Double amount) {
+    if(Objects.isNull(checkIn)) throw new IllegalArgumentException();
+    if(Objects.isNull(checkout)) throw new IllegalArgumentException();
+    if(Objects.isNull(amount)) throw new IllegalArgumentException();
+  }
+
+}
