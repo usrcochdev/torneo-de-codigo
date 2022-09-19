@@ -1,0 +1,15 @@
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\bin\Debug\net6.0\TorneoCodigo2.exe
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\bin\Debug\net6.0\TorneoCodigo2.deps.json
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\bin\Debug\net6.0\TorneoCodigo2.runtimeconfig.json
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\bin\Debug\net6.0\TorneoCodigo2.dll
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\bin\Debug\net6.0\TorneoCodigo2.pdb
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.csproj.AssemblyReference.cache
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.AssemblyInfoInputs.cache
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.AssemblyInfo.cs
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.csproj.CoreCompileInputs.cache
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.dll
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\refint\TorneoCodigo2.dll
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.pdb
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\TorneoCodigo2.genruntimeconfig.cache
+C:\Users\ByronDaniel\Documents\BD\2sep\code-tournament-v2.0\TorneoCodigo2\TorneoCodigo2\obj\Debug\net6.0\ref\TorneoCodigo2.dll
